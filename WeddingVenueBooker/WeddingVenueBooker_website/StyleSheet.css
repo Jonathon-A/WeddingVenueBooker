@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#Title {
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  font-weight: 700;
+  font-family: "Brush Script MT";
+  text-shadow: 1px 1px 0px #000000, 2px 2px 0px #000000, 3px 3px 0px #000000,
+    4px 4px 0px #000000;
+}
+
+fade {
+  position: absolute;
+  bottom: 0px;
+
+  display: block;
+
+  width: 100%;
+  height: 30px;
+  z-index: -1;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+invFade {
+  position: relative;
+  top: 0px;
+
+  background-color: gainsboro;
+  display: block;
+
+  width: 100%;
+  height: 30px;
+
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+#footer {
+  background-color: gainsboro;
+}
+
+#SearchForm {
+  position: relative;
+
+  margin: 20px;
+  background-color: white;
+  border-radius: 30px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-color: white;
+  border-style: solid;
+  outline: 1px solid lightgray;
+  z-index: 3;
+}
+
+#BoldSpan {
+  font-weight: bold;
+}
+
+#LeftSpan {
+  float: left;
+  text-align: left;
+  font-size: small;
+  font-weight: bold;
+}
+
+#RightSpan {
+  float: right;
+  text-align: right;
+  font-size: small;
+  font-weight: bold;
+}
+
+#CardCapacity,
+#CardCateringCost,
+#CardWeekdayPrice,
+#CardWeekendPrice,
+#CardLicensed,
+#CardTotalBookings {
+  font-weight: 400;
+}
+
+#TitleDescription {
+  z-index: -1;
+  display: block;
+}
+
+#SearchHR {
+  margin-right: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  padding: 0px;
+  margin: 0px;
+}
+
+#bannerContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: gainsboro;
+  position: relative;
+  z-index: 2;
+}
+
+#TopBanner {
+  top: -10px;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+#Results {
+  padding-top: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+#PaginationContainer {
+  position: relative;
+  z-index: 3;
+  margin-bottom: 10px;
+}
+
+#StartDate,
+#EndDate,
+#select {
+  color: gray;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
